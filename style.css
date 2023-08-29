@@ -11,7 +11,7 @@
 
 .header {
   position: relative;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 
 .header__inner-img {
@@ -51,6 +51,7 @@
 }
 
 .feature-text {
+  font-size: 20px;
   line-height: 1.75;
 }
 
@@ -58,32 +59,75 @@
   width: 70%;
 }
 
-.outdoor {}
+.outdoor {
+  position: relative;
+  margin-bottom: 50px;
+}
 
-.outdoor-img {}
+.outdoor-img {
+  max-width: 100%;
+}
 
-.outdoor-title {}
+.outdoor-title {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+  font-size: 58px;
+  color: white;
+  text-align: center;
+}
 
 .materials {}
 
-.materials-title {}
+.materials-title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
 
-.materials-wrapper {}
+.materials-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.material {}
+.material {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
 
-.material-img {}
+.material-img {
+  width: 90%;
+  margin-bottom: 15px;
+  border: 1px solid lightgrey;
+}
 
-.material-title {}
+.material-title {
+  font-size: 24px;
+}
 
-.footer {}
+.footer {
+  display: flex;
+}
 
-.logo-copy-wrapper {}
+.logo-copy-wrapper {
+  display: flex;
+}
 
-.logo {}
+.logo {
+  height: 30px;
+}
 
 .copyright {}
 
-.social {}
+.social {
+  display: flex;
 
-.social-item {}
+}
+
+.social-item {
+  margin: 20px;
+}
