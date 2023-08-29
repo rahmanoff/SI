@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.header {
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.header__inner-img {
+  max-width: 100%;
+}
+
+.header__inner-title {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  font-size: 58px;
+  color: white;
+  text-align: center;
+}
+
+.features-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.feature-info {
+  width: 30%;
+  margin: 25px;
+}
+
+.feature-title {
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.feature-text {
+  line-height: 1.75;
+}
+
+.feature-img {
+  width: 70%;
+}
+
+.outdoor {}
+
+.outdoor-img {}
+
+.outdoor-title {}
+
+.materials {}
+
+.materials-title {}
+
+.materials-wrapper {}
+
+.material {}
+
+.material-img {}
+
+.material-title {}
+
+.footer {}
+
+.logo-copy-wrapper {}
+
+.logo {}
+
+.copyright {}
+
+.social {}
+
+.social-item {}
