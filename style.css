@@ -223,4 +223,18 @@
     margin-bottom: 15px;
   }
 
+  .footer {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media(max-width:440px) {
+  .social {
+    display: inline;
+  }
+
+  .social-item {
+    display: block;
+  }
 }
