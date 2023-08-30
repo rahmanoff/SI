@@ -6,12 +6,19 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .header {
   position: relative;
   margin-bottom: 50px;
+}
+
+.logo-top {
+  position: absolute;
+  max-width: 150px;
+  top: 25px;
+  left: 25px;
 }
 
 .header__inner-img {
@@ -48,6 +55,7 @@
 .feature-title {
   font-size: 32px;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .feature-text {
@@ -56,7 +64,7 @@
 }
 
 .feature-img {
-  width: 70%;
+  max-width: 70%;
 }
 
 .outdoor {
@@ -82,8 +90,8 @@
 
 .materials-title {
   text-align: center;
-  font-size: 50px;
-  margin-bottom: 50px;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 .materials-wrapper {
@@ -96,7 +104,9 @@
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 20px 20px 50px 20px;
+
+
 }
 
 .material-img {
