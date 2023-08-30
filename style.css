@@ -137,7 +137,10 @@
 }
 
 .social-item {
+  color: black;
+  text-decoration: none;
   margin: 20px;
+  cursor: pointer;
 }
 
 @media(max-width: 1140px) {
@@ -270,11 +273,11 @@
 
 @media(max-width:400px) {
   .header__inner-title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .feature-title {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
 
@@ -303,7 +306,9 @@
     font-size: 16px;
   }
 
-  .logo-copy-wrapper {
-    display: block;
+  .logo-copy-wrapper {}
+
+  .copyright {
+    margin: 15px;
   }
 }
