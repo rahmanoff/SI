@@ -87,8 +87,6 @@
   text-align: center;
 }
 
-.materials {}
-
 .materials-title {
   text-align: center;
   font-size: 30px;
@@ -132,8 +130,6 @@
   height: 30px;
   margin: 25px;
 }
-
-.copyright {}
 
 .social {
   display: flex;
@@ -229,12 +225,85 @@
 
 }
 
+@media(max-width:570px) {
+  .logo-top {
+    max-width: 75px;
+    top: 15px;
+    left: 15px;
+  }
+
+  .header__inner-title {
+    font-size: 24px;
+  }
+
+  .feature {
+    margin: 10px;
+  }
+
+  .feature-title {
+    font-size: 20px;
+  }
+
+  .feature-text {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
 @media(max-width:440px) {
+  .header__inner-title {
+    font-size: 20px;
+  }
+
+  .outdoor-title {
+    font-size: 20px;
+  }
+
   .social {
     display: inline;
   }
 
   .social-item {
+    display: block;
+  }
+}
+
+@media(max-width:400px) {
+  .header__inner-title {
+    font-size: 16px;
+  }
+
+  .feature-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .feature-text {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .outdoor-title {
+    font-size: 16px;
+  }
+
+  .material {
+    margin: 10px;
+  }
+
+  .material-img {
+    margin-bottom: 10px;
+  }
+
+  .materials-title {
+    font-size: 18px;
+  }
+
+  .material-title {
+    font-size: 16px;
+  }
+
+  .logo-copy-wrapper {
     display: block;
   }
 }
