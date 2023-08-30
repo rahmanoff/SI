@@ -90,7 +90,7 @@
 
 .materials-title {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 40px;
 }
 
@@ -121,14 +121,17 @@
 
 .footer {
   display: flex;
+  align-items: center;
 }
 
 .logo-copy-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .logo {
   height: 30px;
+  margin: 25px;
 }
 
 .copyright {}
